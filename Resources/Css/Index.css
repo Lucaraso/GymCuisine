@@ -13,10 +13,19 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
+  border: 1px solid red;
 }
+
+
 
 a {
   color: blue;
+}
+
+main {
+    width: 90%;
+    height: 1200px;
+    margin: 20px 80px;
 }
 
 /* Header & Nav Bar */
@@ -79,3 +88,12 @@ nav {
   height: 70px;
   margin-left: 80px;
 }
+
+
+/* Hero Section */
+
+.landing-page {
+    height: 600px;
+}
+
+
