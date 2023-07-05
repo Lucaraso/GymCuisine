@@ -13,19 +13,17 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
-  border: 1px solid red;
+  
 }
-
-
 
 a {
   color: blue;
 }
 
 main {
-    width: 90%;
-    height: 1200px;
-    margin: 20px 80px;
+  width: 90%;
+  height: 1200px;
+  margin: 20px 80px;
 }
 
 /* Header & Nav Bar */
@@ -86,14 +84,22 @@ nav {
 .logo img {
   width: 180px;
   height: 70px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
 
 /* Hero Section */
 
 .landing-page {
-    height: 600px;
+  height: 600px;
 }
-
-
