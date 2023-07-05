@@ -13,7 +13,7 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
-  
+  border: 1px solid red;
 }
 
 a {
@@ -25,6 +25,15 @@ main {
   height: 1200px;
   margin: 20px 80px;
 }
+
+/* 
+
+CSS CONTENTS
+
+ 1. Header & Nav Bar 
+ 2. Hero Section
+ 
+*/
 
 /* Header & Nav Bar */
 
@@ -102,4 +111,73 @@ nav {
 
 .landing-page {
   height: 600px;
+  display: flex;
+}
+
+.top-cover {
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  backdrop-filter: blur(2px);
+}
+
+.bottom-cover {
+  position: absolute;
+  right: 75px;
+  top: 175px;
+  z-index: -1;
+  filter: blur(2px);
+  opacity: 0.5;
+}
+
+
+
+.hero-text-container {
+  width: 650px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+}
+
+@media (max-width: 1400px) {
+  .top-cover {
+    display: none;
+  }
+
+  .bottom-cover {
+    display: none;
+  }
+  
+  .hero-text-container {
+    width: 100%;
+    margin: 0px 200px;
+    text-align: center;
+  }
+  
+}
+
+.hero-text-container p {
+  color: #333;
+  font-size: 20px;
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.landing-page h1 {
+  color: #333;
+  font-size: 65px;
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: #cc461b;
 }
