@@ -13,7 +13,6 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
-  
 }
 
 main {
@@ -102,7 +101,7 @@ header {
 }
 
 .links a:hover {
-  color: #FF835C;
+  color: #ff835c;
 }
 
 /* Inspired by the best in fitness cuisine section */
