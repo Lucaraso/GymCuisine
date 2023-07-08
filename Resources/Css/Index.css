@@ -138,3 +138,32 @@ nav {
   left: 0px;
   z-index: 0;
 }
+
+
+/* Inspired by the best in fitness cuisine section */
+
+.InspiredLogosContainer {
+  display: flex;
+  flex-direction: column;
+  background: rgba(51, 51, 51, 0.05);
+  
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.informationh2 {
+color: var(--gc-grey-450, #666);
+text-align: center;
+font-family: Prompt;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.8px;
+  
+}
+
