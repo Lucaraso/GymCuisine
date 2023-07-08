@@ -13,11 +13,6 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
-  
-}
-
-a {
-  color: blue;
 }
 
 main {
@@ -43,6 +38,7 @@ CSS CONTENTS
   flex-shrink: 0;
   background-color: #cc461b;
 }
+
 
 /* Hero Section */
 
