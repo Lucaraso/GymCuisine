@@ -13,6 +13,7 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
+  
 }
 
 main {
@@ -39,7 +40,6 @@ CSS CONTENTS
   background-color: #cc461b;
 }
 
-
 /* Hero Section */
 
 .hero-section {
@@ -61,6 +61,50 @@ CSS CONTENTS
   z-index: 0;
 }
 
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 75vw;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.logo img {
+  width: 170px;
+}
+
+.logo {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.links {
+  display: inline-flex;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #fff;
+  font-family: prompt;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 40px;
+  transition: all 0.5s ease;
+}
+
+.links a:hover {
+  color: #FF835C;
+}
+
 /* Inspired by the best in fitness cuisine section */
 
 .InspiredLogosContainer {
@@ -77,26 +121,25 @@ CSS CONTENTS
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 .information h2 {
-color: var(--gc-grey-450, #666);
-text-align: center;
-font-family: Prompt;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.8px;
-padding: 20px; 
-margin-bottom: -20px;
+  color: var(--gc-grey-450, #666);
+  text-align: center;
+  font-family: Prompt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  padding: 20px;
+  margin-bottom: -20px;
 }
 
 .Best {
   text-decoration: underline;
 }
-  
+
 .orangePattern {
   width: 90px;
   height: 190px;
