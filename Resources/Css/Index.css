@@ -15,10 +15,6 @@ h6 {
   padding: 0px;
 }
 
-a {
-  color: blue;
-}
-
 main {
   width: 90%;
   height: 1200px;
@@ -42,6 +38,7 @@ CSS CONTENTS
   flex-shrink: 0;
   background-color: #cc461b;
 }
+
 
 /* Hero Section */
 
@@ -76,8 +73,6 @@ CSS CONTENTS
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .information h2 {
   color: #666;
