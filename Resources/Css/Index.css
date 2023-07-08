@@ -44,74 +44,6 @@ CSS CONTENTS
   background-color: #cc461b;
 }
 
-header {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav {
-  border-bottom: 1px solid #fff;
-  width: 85%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  z-index: 1;
-}
-
-.nav-links {
-  width: 100%;
-  height: 75px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  margin-right: 80px;
-}
-
-.nav-links h3 {
-  font-size: 22px;
-  font-family: Prompt;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.96px;
-  color: #fff;
-  margin-left: 40px;
-}
-
-.nav-links a {
-  text-decoration: none;
-}
-
-.nav-links h3:hover {
-  color: #6b4423;
-}
-
-.logo {
-  width: 200px;
-  height: auto;
-  margin-left: 60px;
-  margin-top: 10px;
-}
-
-.logo img {
-  width: 100%;
-  height: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* Hero Section */
 
 .hero-section {
@@ -124,12 +56,6 @@ nav {
   transition: height 0.5s ease;
 }
 
-@media (max-width: 767px) {
-  .hero-section {
-    height: 80vh;
-  }
-}
-
 .hero-overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.45);
@@ -138,7 +64,6 @@ nav {
   left: 0px;
   z-index: 0;
 }
-
 
 /* Inspired by the best in fitness cuisine section */
 
@@ -160,7 +85,7 @@ nav {
   
 }
 
-.information h2 {
+.informationh2 {
 color: var(--gc-grey-450, #666);
 text-align: center;
 font-family: Prompt;
@@ -169,10 +94,9 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 letter-spacing: 0.8px;
-padding-top: 40px;
-
-
+padding: 40px; 
 }
+
 .Best {
   text-decoration: underline;
 }
@@ -181,4 +105,3 @@ padding-top: 40px;
   width: 90px;
   height: 190px;
 }
-
