@@ -13,7 +13,7 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
-  
+  border: 1px solid red;
 }
 
 a {
@@ -50,7 +50,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 nav {
@@ -90,23 +89,28 @@ nav {
   color: #6b4423;
 }
 
-.logo img {
-  width: 180px;
-  height: 200px;
-  margin-left: 0px;
-}
-
 .logo {
-  display: flex;
-  align-items: center;
-
+  width: 200px;
+  height: auto;
+  margin-left: 60px;
+  margin-top: 10px;
 }
 
-.logo a {
-  display: flex;
-  align-items: center;
-  margin-left: 80px;
+.logo img {
+  width: 100%;
+  height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hero Section */
 
