@@ -15,11 +15,7 @@ h6 {
   padding: 0px;
 }
 
-main {
-  width: 90%;
-  height: 1200px;
-  margin: 20px 80px;
-}
+
 
 /* 
 
@@ -77,11 +73,16 @@ header {
 }
 
 .logo img {
-  width: 170px;
+  min-width: 80%;
+  max-width: 80%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+
 }
 
 .logo {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   margin-left: 20px;
 }
 
@@ -95,7 +96,7 @@ header {
   color: #fff;
   font-family: prompt;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.3vw;
   margin-right: 40px;
   transition: all 0.5s ease;
 }
