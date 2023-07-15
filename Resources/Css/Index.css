@@ -149,11 +149,22 @@ header {
   top: -40px;
 }
 
+
+
 @media only screen and (max-width: 500px) {
   * {
     border: 1px solid red;
   }
 
+  .orangePattern {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+  * {
+    border: 1px solid black;
+  }
   .orangePattern {
     display: none;
   }
