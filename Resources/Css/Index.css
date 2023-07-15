@@ -15,7 +15,9 @@ h6 {
   padding: 0px;
 }
 
-
+html {
+  font-size: 16px;
+}
 
 /* 
 
@@ -73,17 +75,16 @@ header {
 }
 
 .logo img {
-  min-width: 80%;
-  max-width: 80%;
+  width: 100%;
   height: auto;
   overflow: hidden;
   display: block;
-
 }
 
 .logo {
   margin-bottom: 8px;
   margin-left: 20px;
+  width: 160px;
 }
 
 .links {
@@ -96,7 +97,7 @@ header {
   color: #fff;
   font-family: prompt;
   text-decoration: none;
-  font-size: 1.3vw;
+  font-size: 1rem;
   margin-right: 40px;
   transition: all 0.5s ease;
 }
@@ -110,10 +111,7 @@ header {
 .InspiredLogosContainer {
   display: flex;
   flex-direction: column;
-  background: rgba(51, 51, 51, 0.05);
-  padding: 20px;
-  padding-bottom: 20px;
-  background-color: #fff;
+  background-color: white;
 }
 
 .logos {
@@ -123,17 +121,21 @@ header {
   flex-wrap: wrap;
 }
 
-.information h2 {
+.logos img {
+  height: 5rem;
+}
+
+.InspiredLogosContainer h2 {
   color: var(--gc-grey-450, #666);
   text-align: center;
   font-family: Prompt;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.8px;
   padding: 20px;
-  margin-bottom: -20px;
+  margin-top: 20px;
 }
 
 .Best {
@@ -142,7 +144,17 @@ header {
 
 .orangePattern {
   width: 90px;
-  height: 190px;
+  height: 150px;
   position: relative;
-  top: -30px;
+  top: -40px;
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    border: 1px solid red;
+  }
+
+  .orangePattern {
+    display: none;
+  }
 }
