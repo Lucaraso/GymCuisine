@@ -58,6 +58,8 @@ CSS CONTENTS
   z-index: 0;
 }
 
+/* NavBar */
+
 header {
   height: 80px;
   width: 100%;
@@ -72,6 +74,15 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   z-index: 1;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.burger-menu i{
+  color: #fff;
+  font-size: 30px;
 }
 
 .logo img {
@@ -156,9 +167,22 @@ header {
     border: 1px solid red;
   }
 
+  .links {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+
+
+
   .orangePattern {
     display: none;
   }
+
+
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px)  {
