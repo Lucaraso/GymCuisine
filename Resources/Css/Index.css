@@ -91,7 +91,7 @@ header {
 
 .burger-menu i:hover {
   cursor: pointer;
-  color:#ff835c;
+  color: #ff835c;
 }
 
 .burger-menu i:active {
@@ -184,7 +184,6 @@ header {
   top: -40px;
   left: 25px;
 }
-
 
 /* Mobile Navbar & Inspired Logos */
 
