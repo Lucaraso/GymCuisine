@@ -14,7 +14,6 @@ h6 {
   box-sizing: border-box;
   padding: 0px;
   cursor: crosshair;
-
 }
 
 html {
@@ -26,11 +25,13 @@ html {
 CSS CONTENTS
 
  1. Header & Nav Bar 
- 2. Hero Section
+ 2. Inspired By Section
+
+
  
 */
 
-/* Header & Nav Bar */
+/* 1. Hero & Nav Bar */
 
 .accent-line {
   width: 100%;
@@ -82,7 +83,7 @@ header {
   display: none;
 }
 
-.burger-menu i{
+.burger-menu i {
   color: #fff;
   font-size: 2rem;
 }
@@ -119,7 +120,7 @@ header {
   color: #ff835c;
 }
 
-/* Inspired by the best in fitness cuisine section */
+/* 2. Inspired by the best in fitness cuisine section */
 
 .inspired-container {
   display: flex;
@@ -135,16 +136,13 @@ header {
 }
 
 .inspired-container h2 {
-  color: var(--gc-grey-450, #666);
+  color: #666;
   text-align: center;
   font-family: Prompt;
   font-size: 1.7rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: 0.8px;
   margin-top: 30px;
-  
 }
 
 .item {
@@ -159,7 +157,6 @@ header {
   height: auto;
   overflow: hidden;
 }
-
 
 .best {
   text-decoration: underline;
@@ -179,9 +176,9 @@ header {
 }
 
 
+/* Mobile Navbar & Inspired Logos */
 
 @media only screen and (max-width: 500px) {
-  
   .links {
     display: none;
   }
@@ -226,14 +223,11 @@ header {
     width: 100vw;
     border: none;
   }
-
-
-
-  
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 501px)  {
+/* Tablet Navbar & Inspired Logos */
 
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
   .orange-pattern {
     display: none;
   }
@@ -264,6 +258,4 @@ header {
   .fitcookbook {
     flex-shrink: 3;
   }
-
-  
 }
