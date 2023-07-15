@@ -13,7 +13,7 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
-  
+  cursor: crosshair;
 
 }
 
@@ -60,7 +60,7 @@ CSS CONTENTS
   z-index: 0;
 }
 
-/* NavBar */
+/* Navbar */
 
 header {
   height: 80px;
@@ -144,6 +144,7 @@ header {
   line-height: normal;
   letter-spacing: 0.8px;
   margin-top: 30px;
+  
 }
 
 .item {
@@ -162,6 +163,11 @@ header {
 
 .best {
   text-decoration: underline;
+  transition: color 0.5s ease;
+}
+
+.best:hover {
+  color: #ff835c;
 }
 
 .orange-pattern {
