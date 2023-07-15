@@ -13,6 +13,8 @@ h6 {
   margin: 0;
   box-sizing: border-box;
   padding: 0px;
+  
+
 }
 
 html {
@@ -82,7 +84,7 @@ header {
 
 .burger-menu i{
   color: #fff;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .logo img {
@@ -129,25 +131,34 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-}
-
-.brand-logos img {
-  height: 5rem;
+  margin-right: 100px;
 }
 
 .inspired-container h2 {
   color: var(--gc-grey-450, #666);
   text-align: center;
   font-family: Prompt;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.8px;
-  padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
+.item {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
 
 .best {
   text-decoration: underline;
@@ -158,6 +169,7 @@ header {
   height: 150px;
   position: relative;
   top: -40px;
+  left: 25px;
 }
 
 
@@ -170,11 +182,48 @@ header {
 
   .burger-menu {
     display: block;
+    margin-bottom: 15px;
+    margin-right: 70px;
+  }
+
+  .logo {
+    margin-bottom: 13px;
+    margin-left: 40px;
   }
 
   .orange-pattern {
     display: none;
   }
+
+  .brand-logos {
+    margin-right: 0px;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 40%;
+  }
+
+  .inspired-container {
+    padding-bottom: 20px;
+  }
+
+  .inspired-container h2 {
+    margin-bottom: 20px;
+  }
+
+  .myfitnesspal {
+    margin-right: 40px;
+  }
+
+  .navbar {
+    width: 100vw;
+    border: none;
+  }
+
+
+
+  
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px)  {
@@ -182,4 +231,33 @@ header {
   .orange-pattern {
     display: none;
   }
+
+  .brand-logos {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .item {
+    margin: 0px 5px;
+  }
+
+  .burger-menu {
+    display: block;
+    margin-bottom: 12px;
+    margin-right: 30px;
+  }
+
+  .muscleNfitness {
+    flex-shrink: 2;
+  }
+
+  .fitcookbook {
+    flex-shrink: 3;
+  }
+
+  
 }
