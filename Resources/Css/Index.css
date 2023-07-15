@@ -119,24 +119,24 @@ header {
 
 /* Inspired by the best in fitness cuisine section */
 
-.InspiredLogosContainer {
+.inspired-container {
   display: flex;
   flex-direction: column;
   background-color: white;
 }
 
-.logos {
+.brand-logos {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.logos img {
+.brand-logos img {
   height: 5rem;
 }
 
-.InspiredLogosContainer h2 {
+.inspired-container h2 {
   color: var(--gc-grey-450, #666);
   text-align: center;
   font-family: Prompt;
@@ -149,11 +149,11 @@ header {
   margin-top: 20px;
 }
 
-.Best {
+.best {
   text-decoration: underline;
 }
 
-.orangePattern {
+.orange-pattern {
   width: 90px;
   height: 150px;
   position: relative;
@@ -163,10 +163,7 @@ header {
 
 
 @media only screen and (max-width: 500px) {
-  * {
-    border: 1px solid red;
-  }
-
+  
   .links {
     display: none;
   }
@@ -175,21 +172,14 @@ header {
     display: block;
   }
 
-
-
-
-  .orangePattern {
+  .orange-pattern {
     display: none;
   }
-
-
 }
 
-@media only screen and (max-width: 900px) and (min-width: 600px)  {
-  * {
-    border: 1px solid black;
-  }
-  .orangePattern {
+@media only screen and (max-width: 1000px) and (min-width: 501px)  {
+
+  .orange-pattern {
     display: none;
   }
 }
