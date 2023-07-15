@@ -86,6 +86,16 @@ header {
 .burger-menu i {
   color: #fff;
   font-size: 2rem;
+  transition: color 0.3s ease-in;
+}
+
+.burger-menu i:hover {
+  cursor: pointer;
+  color:#ff835c;
+}
+
+.burger-menu i:active {
+  transform: scale(0.95);
 }
 
 .logo img {
