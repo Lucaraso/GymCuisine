@@ -3,4 +3,4 @@ Gymcuisine is a design and development project carried out by two aspiring devel
 
 | Figma Design | Live Demo |
 | ------------ | ---- |
-| Expanding Cards [File Link]([https://github.com/Lucaraso/50Projects-50Days/tree/main/Expanding-Cards](https://www.dropbox.com/scl/fi/kzit7ttutz7p5ho3nzymr/Gym-Recipe-Website.pdf?rlkey=ec0f4u48uqfpvzueeehe2iz11&dl=0)https://www.dropbox.com/scl/fi/kzit7ttutz7p5ho3nzymr/Gym-Recipe-Website.pdf?rlkey=ec0f4u48uqfpvzueeehe2iz11&dl=0) | [Live Demo](https://lucaraso.github.io/50Projects-50Days/Expanding-Cards/)|
+|[File Link](https://www.dropbox.com/scl/fi/kzit7ttutz7p5ho3nzymr/Gym-Recipe-Website.pdf?rlkey=ec0f4u48uqfpvzueeehe2iz11&dl=0) | [Live Demo](https://lucaraso.github.io/50Projects-50Days/Expanding-Cards/)|
