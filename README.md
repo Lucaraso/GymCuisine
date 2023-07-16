@@ -6,4 +6,4 @@ Zoom out of the pdf to see full quality
 
 | Figma Design | Live Demo |
 | -------- | ---- |
-|[File Link](https://www.dropbox.com/scl/fi/kzit7ttutz7p5ho3nzymr/Gym-Recipe-Website.pdf?rlkey=ec0f4u48uqfpvzueeehe2iz11&dl=0)| [Live Demo](https://lucaraso.github.io/50Projects-50Days/GymCuisine/)|
+|[Figma Link](https://www.dropbox.com/scl/fi/kzit7ttutz7p5ho3nzymr/Gym-Recipe-Website.pdf?rlkey=ec0f4u48uqfpvzueeehe2iz11&dl=0)| [Live Demo](https://lucaraso.github.io/GymCuisine/Index.html)|
