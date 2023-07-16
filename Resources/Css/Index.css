@@ -50,6 +50,9 @@ CSS CONTENTS
   background-repeat: no-repeat;
   background-position: center;
   transition: height 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-overlay {
@@ -77,25 +80,6 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   z-index: 1;
-}
-
-.burger-menu {
-  display: none;
-}
-
-.burger-menu i {
-  color: #fff;
-  font-size: 2rem;
-  transition: color 0.3s ease-in;
-}
-
-.burger-menu i:hover {
-  cursor: pointer;
-  color: #ff835c;
-}
-
-.burger-menu i:active {
-  transform: scale(0.95);
 }
 
 .logo img {
@@ -128,6 +112,85 @@ header {
 
 .links a:hover {
   color: #ff835c;
+}
+
+/* Burger Menu Nav */
+
+.burger-menu {
+  display: none;
+}
+
+.burger-menu i {
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.3s ease-in;
+}
+
+.burger-menu i:hover {
+  cursor: pointer;
+  color: #ff835c;
+}
+
+.burger-menu i:active {
+  transform: scale(0.95);
+}
+
+/* Hero Text Section */
+
+.hero-text-container {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  font-family: prompt;
+}
+
+.hero-text-container h1 {
+  color: #f4fcf6;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 68px;
+  font-weight: 600;
+  letter-spacing: 4.68px;
+  width: 978px;
+  margin-bottom: 40px;
+  line-height: 90px;
+  margin-top: 80px;
+  text-shadow: rgba(0, 0, 0, 0.45);
+}
+
+.hero-text-container p {
+  color: #e8f0ea;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 719px;
+  margin-bottom: 70px;
+}
+
+.cta-btn {
+  padding: 13px 47px;
+  border-radius: 20px;
+  border: 2.712px solid #ff6d2c;
+  background: #ff6d2c;
+  box-shadow: 4px 4px 0px 0px #ececec;
+  color: white;
+  font-weight: 500;
+  font-family: Prompt;
+  font-size: 20px;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+}
+
+.cta-btn:active {
+  transform: scale(1.02);
 }
 
 /* 2. Inspired by the best in fitness cuisine section */
@@ -189,6 +252,10 @@ header {
 
 @media only screen and (max-width: 500px) {
   .links {
+    display: none;
+  }
+
+  .accent-line {
     display: none;
   }
 
