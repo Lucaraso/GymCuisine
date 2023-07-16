@@ -3,4 +3,6 @@ Gymcuisine is a design and development project carried out by two aspiring devel
 
 | Figma Design | Live Demo |
 | -------- | ---- |
+|.Fig File](https://www.dropbox.com/scl/fi/ukbnyxt8zlc2bwwgvbhrx/GymCuisine-Websise-Final-Design.fig?rlkey=d5v0kvndrk17ak81q39ol4bnl&dl=0)| [Live Demo](https://lucaraso.github.io/GymCuisine/Index.html)|
+|[Figma Screenshot](https://www.dropbox.com/scl/fi/bdyv3n8z5mnjsvru48pjq/Figma-Design-Screenshot.PNG?rlkey=nd1x414j9zav7uis47jf7xmjo&dl=0)| [Live Demo](https://lucaraso.github.io/GymCuisine/Index.html)|
 |[Figma Link](https://www.dropbox.com/scl/fi/ukbnyxt8zlc2bwwgvbhrx/GymCuisine-Websise-Final-Design.fig?rlkey=d5v0kvndrk17ak81q39ol4bnl&dl=0)| [Live Demo](https://lucaraso.github.io/GymCuisine/Index.html)|
