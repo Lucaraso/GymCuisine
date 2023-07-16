@@ -207,6 +207,9 @@ header {
   transform: scale(1.02);
 }
 
+
+/* Mobile Hero Text */
+
 @media only screen and (max-width: 500px) {
   .hero-text-container h1 {
     font-size: 35px;
@@ -225,6 +228,8 @@ header {
   }
 
 }
+
+/* Tablet Hero Text */
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
 
@@ -332,7 +337,7 @@ header {
   }
 
   .item {
-    width: 40%;
+    width: 35%;
   }
 
   .inspired-container {
