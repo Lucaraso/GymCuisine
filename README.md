@@ -2,7 +2,7 @@
 Gymcuisine is a design and development project carried out by two aspiring developers who also share an interest in the gym. We decided to showcase our frontend skills while incorporating this interest. Please see the final Figma Hi-Fi design and live demo below and let us know what you think!
 
 ## Tip 
-Zoom out of the pdf to see full quality 
+Zoom out of the pdf to see full quality!
 
 | Figma Design | Live Demo |
 | -------- | ---- |
