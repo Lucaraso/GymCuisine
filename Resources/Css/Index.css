@@ -14,6 +14,7 @@ h6 {
   box-sizing: border-box;
   padding: 0px;
   cursor: crosshair;
+  border: 1px solid red;
 }
 
 html {
@@ -252,7 +253,7 @@ header {
 .inspired-container {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(237, 237, 237);
 }
 
 .brand-logos {
@@ -262,7 +263,7 @@ header {
   margin-right: 100px;
 }
 
-.inspired-container h2 {
+.inspired-container h3 {
   color: #666;
   text-align: center;
   font-family: Prompt;
@@ -388,4 +389,94 @@ header {
   .fitcookbook {
     flex-shrink: 3;
   }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap");
+
+/* Featured Recipes Section */
+
+.featured-section {
+  background-color: #fff;
+  position: relative;
+  z-index: -3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-container {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.featured-container h2 {
+  width: 100%;
+  height: 80px;
+  margin-top: 50px;
+  margin-left: 75px;
+  color: #333;
+  font-family: Prompt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.card {
+  height: 370px;
+  width: 300px;
+  background-color: black;
+}
+
+.cta-btn-2 {
+  padding: 13px 47px;
+  border-radius: 20px;
+  border: 2.712px solid #ff6d2c;
+  background: #ff6d2c;
+  box-shadow: 4px 4px 0px 0px #ececec;
+  color: white;
+  font-weight: 500;
+  font-family: Prompt;
+  font-size: 20px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+
+.bg-design {
+  position: absolute;
+  width: 1700px;
+  height: 379px;
+  transform: rotate(-30deg);
+  color: rgba(128, 128, 128, 0.03);
+  font-family: Prompt;
+  font-size: 274px;
+  font-weight: 900;
+  overflow: hidden;
+  top: 220px;
+  right: -120px;
+  z-index: -2;
+}
+
+.orange-corner {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+section {
+  height: 200px;
+  background-color: black;
 }
