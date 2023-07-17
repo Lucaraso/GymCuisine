@@ -438,7 +438,7 @@ header {
 }
 
 .featured-container h2 span:hover {
-  color:#ff6d2c;
+  color: #ff6d2c;
 }
 
 .card-container {
@@ -498,11 +498,6 @@ header {
   position: absolute;
   bottom: 20px;
   right: 20px;
-}
-
-section {
-  height: 200px;
-  background-color: black;
 }
 
 /* Mobile Featured Section */
@@ -577,8 +572,6 @@ section {
   height: 100%;
   object-fit: cover;
 }
-
-
 
 .recipe-details {
   padding: 0px 20px 20px 20px;
@@ -667,4 +660,53 @@ section {
 
 .recipe-card:hover .nutrition-label {
   color: #ff6d2c;
+}
+
+/* Category Section */
+
+.category-section {
+  height: 600px;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.category-container {
+  border: 1px solid red;
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.category-container h3 {
+  color: #666;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.category {
+  width: 375px;
+  height: 340px;
+  border-radius: 20px;
+  box-shadow: -10px 10px 0px 0px #4d4d4d;
+  overflow: hidden;
+}
+
+.category img {
+  max-width: 100%;
+  height: auto;
 }
