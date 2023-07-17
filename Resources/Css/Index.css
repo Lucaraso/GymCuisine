@@ -430,6 +430,17 @@ header {
   margin-bottom: 40px;
 }
 
+.featured-container h2 span {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  transition: 0.6s ease;
+}
+
+.featured-container h2 span:hover {
+  color:#ff6d2c;
+}
+
 .card-container {
   display: flex;
   width: 100%;
@@ -537,8 +548,6 @@ section {
     margin: 25px 0px;
     margin-top: 50px;
   }
-
-  
 }
 
 /* Recipe Card CSS  */
@@ -568,6 +577,8 @@ section {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 .recipe-details {
   padding: 0px 20px 20px 20px;
@@ -621,7 +632,6 @@ section {
   color: #333;
   margin-top: -10px;
   font-family: Prompt;
-
 }
 
 .nutritional-info {
@@ -654,8 +664,6 @@ section {
 .recipe-card:hover .recipe-title {
   color: #ff6d2c;
 }
-
-
 
 .recipe-card:hover .nutrition-label {
   color: #ff6d2c;
