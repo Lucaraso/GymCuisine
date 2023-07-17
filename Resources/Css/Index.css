@@ -673,7 +673,6 @@ header {
 }
 
 .category-container {
-  border: 1px solid red;
   width: 90%;
   margin-top: 50px;
   display: flex;
@@ -704,6 +703,7 @@ header {
   box-shadow: -10px 10px 0px 0px #4d4d4d;
   overflow: hidden;
   position: relative;
+  transition: all 0.3s ease;
 }
 
 .category img {
@@ -731,4 +731,11 @@ header {
   font-weight: 400;
   color: white;
   letter-spacing: 2px;
+}
+
+.category:hover {
+  transform: translateY(-10px);
+  transform: scale(1.05);
+  box-shadow: none;
+  border: 4px solid #ff6d2c;
 }
