@@ -682,13 +682,12 @@ header {
 }
 
 .category-container h3 {
-  color: #666;
+  color: #333;
   text-align: center;
   font-family: Prompt;
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1px;
-
 }
 
 .categories {
@@ -699,14 +698,37 @@ header {
 }
 
 .category {
-  width: 375px;
-  height: 340px;
+  width: 345px;
+  height: 310px;
   border-radius: 20px;
   box-shadow: -10px 10px 0px 0px #4d4d4d;
   overflow: hidden;
+  position: relative;
 }
 
 .category img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.category .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay span.text {
+  font-family: Prompt;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 2px;
 }
