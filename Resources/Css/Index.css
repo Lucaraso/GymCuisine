@@ -739,3 +739,52 @@ header {
   box-shadow: none;
   border: 4px solid #ff6d2c;
 }
+
+
+
+/* footer */
+
+
+
+.links2 a{
+color: var(--gc-grey-750, #333);
+font-family: Prompt;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+text-decoration: none;
+
+}
+
+.links2 {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 20px;
+  margin-right: 40px;
+  flex-wrap: wrap;
+  
+}
+
+.footer img {
+ margin-bottom: 20px;
+ margin-left: 20px;
+ 
+}
+
+.socials {
+  display: flex;
+  gap: 50px;
+  flex-shrink: 0;
+  margin-bottom: -21px;
+}
+
