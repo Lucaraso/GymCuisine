@@ -14,6 +14,7 @@ h6 {
   box-sizing: border-box;
   padding: 0px;
   cursor: crosshair;
+  border: 1px solid red;
 }
 
 html {
@@ -665,11 +666,11 @@ header {
 /* Category Section */
 
 .category-section {
-  height: 600px;
   background-color: rgb(233, 233, 233);
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .category-container {
@@ -687,6 +688,7 @@ header {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1px;
+  margin-bottom: 2.5rem;
 }
 
 .categories {
@@ -694,6 +696,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 .category {
@@ -704,6 +707,7 @@ header {
   overflow: hidden;
   position: relative;
   transition: all 0.3s ease;
+  margin-bottom: 35px;
 }
 
 .category img {
@@ -738,4 +742,28 @@ header {
   transform: scale(1.05);
   box-shadow: none;
   border: 4px solid #ff6d2c;
+}
+
+/* Protein Section */
+
+.protein-section {
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+
+.background-image {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1; 
+}
+
+.protein-container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid red;
+  position: relative; 
 }
