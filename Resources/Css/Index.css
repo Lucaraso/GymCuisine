@@ -743,3 +743,27 @@ header {
   box-shadow: none;
   border: 4px solid #ff6d2c;
 }
+
+/* Protein Section */
+
+.protein-section {
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+
+.background-image {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1; 
+}
+
+.protein-container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid red;
+  position: relative; 
+}
