@@ -14,7 +14,6 @@ h6 {
   box-sizing: border-box;
   padding: 0px;
   cursor: crosshair;
-  border: 1px solid red;
 }
 
 html {
@@ -749,21 +748,23 @@ header {
 .protein-section {
   position: relative;
   height: 700px;
-  width: 100%;
+  overflow: hidden;
+  display: flex;
+
 }
 
-.background-image {
+.protein-section img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1; 
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .protein-container {
-  width: 80%;
-  height: 80%;
   border: 1px solid red;
-  position: relative; 
+  width: 50%;
+
 }
