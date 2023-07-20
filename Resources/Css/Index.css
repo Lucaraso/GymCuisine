@@ -14,7 +14,6 @@ h6 {
   box-sizing: border-box;
   padding: 0px;
   cursor: crosshair;
-  border: 1px solid red;
 }
 
 html {
@@ -803,7 +802,7 @@ header {
 .cta-btn-2 {
   display: inline-flex;
   padding: 12px 40px;
-  background-repeat: 20px;
+  width: fit-content;
   background: #ff6d2c;
 }
 
@@ -815,4 +814,52 @@ header {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
+}
+
+/* Protein section for mobile */
+@media only screen and (max-width: 500px) {
+  .protein-section {
+    justify-content: center;
+  }
+
+  .protein-container {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .protein-container h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .protein-container p {
+    margin-bottom: 60px;
+  }
+}
+
+/* Protein section for tablet */
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+  .protein-section {
+    justify-content: center;
+  }
+
+  .protein-container {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .protein-container h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .protein-container p {
+    margin-bottom: 60px;
+  }
 }
