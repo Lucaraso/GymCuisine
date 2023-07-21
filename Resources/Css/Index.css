@@ -28,7 +28,6 @@ CSS CONTENTS
  2. Inspired By Section
  3. Featured Section
  4. Category Section
-
  
 */
 
@@ -356,6 +355,10 @@ header {
   }
 
   .myprotein {
+    display: none;
+  }
+
+  .muscleNfitness {
     display: none;
   }
 }
