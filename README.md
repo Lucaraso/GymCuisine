@@ -1,5 +1,6 @@
 # GymCuisine Website Frontend Project 
-Gymcuisine is a design and development project carried out by two aspiring developers who also share an interest in the gym. We decided to showcase our frontend skills while incorporating this interest. Please see the final Figma Hi-Fi design and live demo below and let us know what you think!
+Gymcuisine is a design and development project carried out by two aspiring developers who also share an interest in the gym. We decided to showcase our frontend skills while incorporating this interest, and aimed to demonstrate our knowledge of design principles and coding raw HTML and CSS with no frameworks. Please see the final Figma Hi-Fi design and live demo below, and let us know what you think!
+
 
 | Figma Design | Live Demo |
 | -------- | ---- |
